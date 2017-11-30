@@ -20,6 +20,6 @@
     "https://github.com/ldn0x7dc/react-native-transformable-image#readme",
   "dependencies": {
     "react-native-view-transformer":
-      "git@github.com:EOdOW/react-native-view-transformer.git#0.0.28"
+      "git@github.com:EOdOW/react-native-view-transformer.git#v0.0.28"
   }
 }
