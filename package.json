@@ -8,15 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ldn0x7dc/react-native-transformable-image.git"
+    "url":
+      "git+https://github.com/ldn0x7dc/react-native-transformable-image.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ldn0x7dc/react-native-transformable-image/issues"
   },
-  "homepage": "https://github.com/ldn0x7dc/react-native-transformable-image#readme",
+  "homepage":
+    "https://github.com/ldn0x7dc/react-native-transformable-image#readme",
   "dependencies": {
-    "react-native-view-transformer": "0.0.28"
+    "react-native-view-transformer":
+      "git@github.com:EOdOW/react-native-view-transformer.git"
   }
 }
