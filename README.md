@@ -1,3 +1,5 @@
+This is a fork of react-native-transformable-image which updates PropTypes to be imported 'prop-types' and also uses a similar for of react-native-view-transformer
+
 # react-native-transformable-image
 
 A pure JavaScript written transformable image component, like PhotoView or ImageViewer, supports gestures like pan, pinch, double tab and fling, works with both iOS and Android.
@@ -6,7 +8,7 @@ A pure JavaScript written transformable image component, like PhotoView or Image
 
 
 
-Written in pure JS, this component should be one of the most easy to use component among all the zoomable, scrollable PhotoView alike views on react-native. 
+Written in pure JS, this component should be one of the most easy to use component among all the zoomable, scrollable PhotoView alike views on react-native.
 
 ## Install
 
@@ -38,7 +40,7 @@ You can provide `enableTransform`, `enableScale` and `enableTranslate`  props to
 
 #### Other props
 
-* `onTransformGestureReleased` and `onViewTransformed`: 
+* `onTransformGestureReleased` and `onViewTransformed`:
 
 ​	inherited from [react-native-view-transformer](https://github.com/ldn0x7dc/react-native-view-transformer)
 
