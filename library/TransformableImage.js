@@ -63,6 +63,7 @@ export default class TransformableImage extends Component {
   }
 
   render() {
+    const { children, ...props } = this.props
     let maxScale = 1
     let contentAspectRatio = undefined
     let width, height //pixels
@@ -104,13 +105,14 @@ export default class TransformableImage extends Component {
         onLayout={this.onLayout.bind(this)}
         style={this.props.style}>
         <Image
-          {...this.props}
+          {...props}
           style={[this.props.style, { backgroundColor: 'transparent' }]}
           resizeMode={'contain'}
           onLoadStart={this.onLoadStart.bind(this)}
           onLoad={this.onLoad.bind(this)}
           capInsets={{ left: 0.1, top: 0.1, right: 0.1, bottom: 0.1 }} //on iOS, use capInsets to avoid image downsampling
         />
+        {children}
       </ViewTransformer>
     )
   }
